@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dp/Jyf8RLAKqlmrLh7HGM05g9baUULDVVxvA4L2I4CLxd8gMr6Mqq0i/rp6vSTNAFoh+aoAox94puP5YiRM/YQ==",
+  "dgSpecHash": "pvkrh8S8/eIqhQXDvDib8pjVs3oALIBqJB11ylEAq1HlcnwfXF3hj5utd6VF/92JAFAwCgXy2O9frS258cliaQ==",
   "success": true,
-  "projectFilePath": "D:\\School stuff\\Software\\New folder (2)\\UnitTest\\UnitTest.csproj",
+  "projectFilePath": "d:\\School stuff\\Software\\New folder (2)\\UnitTest\\UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rokas\\.nuget\\packages\\efcore.namingconventions\\6.0.0\\efcore.namingconventions.6.0.0.nupkg.sha512",
     "C:\\Users\\Rokas\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",

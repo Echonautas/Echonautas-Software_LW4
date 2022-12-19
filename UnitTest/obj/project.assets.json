@@ -1135,11 +1135,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\School stuff\\Software\\New folder (2)\\UnitTest\\UnitTest.csproj",
+      "projectUniqueName": "d:\\School stuff\\Software\\New folder (2)\\UnitTest\\UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "D:\\School stuff\\Software\\New folder (2)\\UnitTest\\UnitTest.csproj",
+      "projectPath": "d:\\School stuff\\Software\\New folder (2)\\UnitTest\\UnitTest.csproj",
       "packagesPath": "C:\\Users\\Rokas\\.nuget\\packages\\",
-      "outputPath": "D:\\School stuff\\Software\\New folder (2)\\UnitTest\\obj\\",
+      "outputPath": "d:\\School stuff\\Software\\New folder (2)\\UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rokas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1156,8 +1156,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\School stuff\\Software\\New folder (2)\\software.design\\software.design.csproj": {
-              "projectPath": "D:\\School stuff\\Software\\New folder (2)\\software.design\\software.design.csproj"
+            "d:\\School stuff\\Software\\New folder (2)\\software.design\\software.design.csproj": {
+              "projectPath": "d:\\School stuff\\Software\\New folder (2)\\software.design\\software.design.csproj"
             }
           }
         }
