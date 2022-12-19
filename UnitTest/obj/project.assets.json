@@ -1119,8 +1119,8 @@
     },
     "software.design/1.0.0": {
       "type": "project",
-      "path": "../Main/software.design.csproj",
-      "msbuildProject": "../Main/software.design.csproj"
+      "path": "../software.design/software.design.csproj",
+      "msbuildProject": "../software.design/software.design.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1156,8 +1156,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\School stuff\\Software\\New folder (2)\\Main\\software.design.csproj": {
-              "projectPath": "D:\\School stuff\\Software\\New folder (2)\\Main\\software.design.csproj"
+            "D:\\School stuff\\Software\\New folder (2)\\software.design\\software.design.csproj": {
+              "projectPath": "D:\\School stuff\\Software\\New folder (2)\\software.design\\software.design.csproj"
             }
           }
         }
