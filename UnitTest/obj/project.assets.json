@@ -275,7 +275,7 @@
           }
         },
         "build": {
-          "build/net5.0/_._": {}
+          "build/net5.0/MSTest.TestFramework.targets": {}
         }
       },
       "Npgsql/6.0.7": {
@@ -430,20 +430,19 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "LW4_1/1.0.0": {
+      "software.design/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "EFCore.NamingConventions": "6.0.0",
-          "MSTest.TestFramework": "2.2.10",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.7",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "compile": {
-          "bin/placeholder/LW4_1.dll": {}
+          "bin/placeholder/software.design.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LW4_1.dll": {}
+          "bin/placeholder/software.design.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -1118,15 +1117,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "LW4_1/1.0.0": {
+    "software.design/1.0.0": {
       "type": "project",
-      "path": "../Main/LW4_1.csproj",
-      "msbuildProject": "../Main/LW4_1.csproj"
+      "path": "../Main/software.design.csproj",
+      "msbuildProject": "../Main/software.design.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "LW4_1 >= 1.0.0"
+      "MSTest.TestFramework >= 2.2.10",
+      "software.design >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1156,8 +1156,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\School stuff\\Software\\New folder (2)\\Main\\LW4_1.csproj": {
-              "projectPath": "D:\\School stuff\\Software\\New folder (2)\\Main\\LW4_1.csproj"
+            "D:\\School stuff\\Software\\New folder (2)\\Main\\software.design.csproj": {
+              "projectPath": "D:\\School stuff\\Software\\New folder (2)\\Main\\software.design.csproj"
             }
           }
         }
@@ -1171,6 +1171,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "MSTest.TestFramework": {
+            "target": "Package",
+            "version": "[2.2.10, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

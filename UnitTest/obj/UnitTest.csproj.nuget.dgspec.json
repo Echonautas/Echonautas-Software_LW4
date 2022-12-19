@@ -4,12 +4,12 @@
     "D:\\School stuff\\Software\\New folder (2)\\UnitTest\\UnitTest.csproj": {}
   },
   "projects": {
-    "D:\\School stuff\\Software\\New folder (2)\\Main\\LW4_1.csproj": {
+    "D:\\School stuff\\Software\\New folder (2)\\Main\\software.design.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\School stuff\\Software\\New folder (2)\\Main\\LW4_1.csproj",
-        "projectName": "LW4_1",
-        "projectPath": "D:\\School stuff\\Software\\New folder (2)\\Main\\LW4_1.csproj",
+        "projectUniqueName": "D:\\School stuff\\Software\\New folder (2)\\Main\\software.design.csproj",
+        "projectName": "software.design",
+        "projectPath": "D:\\School stuff\\Software\\New folder (2)\\Main\\software.design.csproj",
         "packagesPath": "C:\\Users\\Rokas\\.nuget\\packages\\",
         "outputPath": "D:\\School stuff\\Software\\New folder (2)\\Main\\obj\\",
         "projectStyle": "PackageReference",
@@ -43,10 +43,6 @@
             "EFCore.NamingConventions": {
               "target": "Package",
               "version": "[6.0.0, )"
-            },
-            "MSTest.TestFramework": {
-              "target": "Package",
-              "version": "[2.2.10, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -104,8 +100,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\School stuff\\Software\\New folder (2)\\Main\\LW4_1.csproj": {
-                "projectPath": "D:\\School stuff\\Software\\New folder (2)\\Main\\LW4_1.csproj"
+              "D:\\School stuff\\Software\\New folder (2)\\Main\\software.design.csproj": {
+                "projectPath": "D:\\School stuff\\Software\\New folder (2)\\Main\\software.design.csproj"
               }
             }
           }
@@ -119,6 +115,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

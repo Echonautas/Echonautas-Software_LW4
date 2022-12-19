@@ -6,16 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "LW4_1/1.0.0": {
+      "software.design/1.0.0": {
         "dependencies": {
           "EFCore.NamingConventions": "6.0.0",
-          "MSTest.TestFramework": "2.2.10",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.7",
-          "Swashbuckle.AspNetCore": "6.2.3",
-          "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions": "14.0.0.0"
+          "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
-          "LW4_1.dll": {}
+          "software.design.dll": {}
         }
       },
       "EFCore.NamingConventions/6.0.0": {
@@ -131,14 +129,6 @@
           }
         }
       },
-      "MSTest.TestFramework/2.2.10": {
-        "runtime": {
-          "lib/net5.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {
-            "assemblyVersion": "14.0.0.0",
-            "fileVersion": "14.0.7126.11"
-          }
-        }
-      },
       "Npgsql/6.0.7": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -212,19 +202,11 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
-      "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions/14.0.0.0": {
-        "runtime": {
-          "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {
-            "assemblyVersion": "14.0.0.0",
-            "fileVersion": "14.0.7126.11"
-          }
-        }
-      }
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {}
     }
   },
   "libraries": {
-    "LW4_1/1.0.0": {
+    "software.design/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -341,13 +323,6 @@
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
     },
-    "MSTest.TestFramework/2.2.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-JZRVXKq19uRhkj8MuzsU8zJhPV2JV3ZToFPAIg+BU53L1L9mNDfm9jXerdRfbrE4HBcf2M54Ij80zPOdlha3+Q==",
-      "path": "mstest.testframework/2.2.10",
-      "hashPath": "mstest.testframework.2.2.10.nupkg.sha512"
-    },
     "Npgsql/6.0.7": {
       "type": "package",
       "serviceable": true,
@@ -410,11 +385,6 @@
       "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
-    },
-    "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions/14.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }
